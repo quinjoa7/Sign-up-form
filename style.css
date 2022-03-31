@@ -1,0 +1,64 @@
+body {
+    background-image: url(./assets/background.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: max(30%, 330px);
+}
+.me {
+    background-color: hsla(235, 36%, 21%, 0.938);
+    height: 20vh;
+    margin-top: 20vh;
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    color: coral;
+}
+.my-git {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 1vw 0px 1vw;
+    align-items: center;
+    font-size: 50px;
+}
+.logo {
+    height: auto;
+    width: min(90%,18vh);
+}
+img.logo {
+    filter: invert(73%) sepia(50%) saturate(4370%) hue-rotate(326deg) brightness(102%) contrast(101%);
+}
+.background-credits {
+    text-align: center;
+    margin-bottom: 18vh;
+    color: black;
+}
+.background-credits a {
+    font-size: 20px;
+    color: #ff7f50;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    height: 100vh;
+    width: max(70%, 500px);
+    background-color: hsla(36, 100%, 50%, 0.336);
+}
+
+a {
+    text-decoration: none;
+}
