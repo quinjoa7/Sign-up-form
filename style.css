@@ -2,6 +2,20 @@
     font-family: viking;
     src: url(./assets/Norse-Bold.otf);
 }
+
+input:focus {
+    outline: none !important;
+    border-color: coral;
+    box-shadow: 0 0 10px rgb(238, 90, 37);
+}
+button:active {
+    background-color: rgb(184, 91, 57);
+    width: 145px;
+    height: 45px;
+    border: 2px solid black;
+
+}
+
 body {
     background-image: url(./assets/background.jpg);
     background-size: 100% 100%;
@@ -98,7 +112,7 @@ input {
     font-size:  20px;
     background-color: hsla(235, 31%, 21%, 0.562);
     border-color: coral;
-    color: coral;
+    color: rgb(255, 147, 107);
 }
 button {
     width: 150px;
